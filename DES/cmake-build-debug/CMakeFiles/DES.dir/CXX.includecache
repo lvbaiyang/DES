@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lvbaiyang/Desktop/C++practise/DES/Key.h
+bitset
+-
+iostream
+-
+fstream
+-
+
+/Users/lvbaiyang/Desktop/C++practise/DES/key.cpp
+Key.h
+/Users/lvbaiyang/Desktop/C++practise/DES/Key.h
+
+/Users/lvbaiyang/Desktop/C++practise/DES/main.cpp
+iostream
+-
+Key.h
+/Users/lvbaiyang/Desktop/C++practise/DES/Key.h
+
